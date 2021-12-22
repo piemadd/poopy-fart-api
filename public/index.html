@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>fart</title>
+	</head>
+	<body>
+		<script>
+			function playMusic() {
+				new Audio('https://fart.one/fart/random?' + Math.random().toString(36).substr(2, 5)).play(); //that random stuff yeets around the cache
+            setTimeout(playMusic, 100);
+			}
+		</script>
+	</body>
+	<input type="button" value="fard" onclick="playMusic()" />
+</html>
